@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>pointer-events bind event sample</title>
+	<style>
+		.container {
+			width: 230px;
+			height: 60px;
+			background-color: lightblue;
+			padding-left: 30px;
+			padding-top: 10px;
+		}
+
+		.pointer-events-none {
+			pointer-events: none;
+		}
+		
+		.pointer-events-auto {
+			pointer-events: auto;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function() {
+			var parentDiv = document.getElementsByClassName("pointer-events-none")[0];
+			var pointerNoneChildDiv = parentDiv.childNodes[0];
+			var pointerAutoChildDiv = parentDiv.childNodes[1];
+			parentDiv.addEventListener("click", function() {
+				alert("Click on parent DIV");
+			});
+		};
+	</script>
+</head>
+<body>
+	<div class="container pointer-events-none">
+		<div>
+			<a href="http://www.baidu.com" style="color: red;">No pointer-events class.</a>
+		</div>
+		<div class="pointer-events-auto">
+			<a href="https://github.com/nanzhangren/CSS-skills" style="color: green;">Set pointer-events auto.</a>
+		</div>
+	</div>
+</body>
+</html>
