@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Test Sample</title>
+	<style>
+		#container {
+			position: relative;
+			width: 600px;
+			height: 500px;
+			background: url(1.jpg);
+		}
+		@keyframes mymove {
+			from {
+				width: 0;
+				height: 0;
+				opcity: 1;
+				left: 225px;
+				top: 225px;
+			}
+			to {
+				width: 50px;
+				height: 50px;
+				opacity: 0;
+				left: 200px;
+				top: 200px;
+			}
+		}
+		#point:before {
+			content: ' ';
+			width: 10px;
+			height: 10px;
+			background-color: blue;
+			border-radius: 50%;
+			position: absolute;
+			left: 220px;
+			top: 220px;
+			z-index: 2;
+		}
+		#point:after {
+			content: ' ';
+			background-color: blue;
+			border-radius: 50%;
+			position: absolute;
+			left: 220px;
+			top: 220px;
+			z-index: 1;
+			animation: mymove 2s infinite;
+			-webkit-animation: mymove 2s infinite;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<span id="point"></span>
+	</div>
+</body>
+</html>
