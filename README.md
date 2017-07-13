@@ -2,9 +2,9 @@
 - grayscale
 - locate
 - tooltip
+- pointer-events
 
 ## To do list:
-- pointer-events
 - ::before & ::after
 - 多重边框
 - border-radius设置8个值
