@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Test Sample</title>
+	<style>
+		.tooltip {
+			display: relative;
+			color: blue;
+		}
+		.tooltip span {
+			display: none;
+		}
+		.tooltip:hover span {
+			display: inline;
+			position: absolute;
+			margin-top: 26px;
+			margin-left: -30px;
+			color: black;
+			font-size: 11pt;
+		}
+	</style>
+</head>
+<body>
+	<a class='tooltip' href='#'>
+		Hover on me!
+		<span>- I am a tooltip.</span>
+	</a>
+</body>
+</html>
+
