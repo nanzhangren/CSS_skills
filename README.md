@@ -7,4 +7,5 @@
 ## To do list:
 - ::before & ::after
 - 多重边框
-- border-radius设置8个值
+- border-radius 设置8个值
+- transition 实现颜色过渡效果
