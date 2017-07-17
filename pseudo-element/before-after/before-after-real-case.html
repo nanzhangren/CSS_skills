@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Pseudo Class (::before && ::after) Sample</title>
+	<style>
+		li {
+			list-style-type: none;
+			position: relative;
+			height: 23px;
+			width: 200px;
+			padding: 10px 10px 10px 30px;
+			background-color: lightgrey;
+			margin: 2px;
+		}
+
+		li.like {
+			color: white;
+			background-color: lightgreen;
+		}
+
+		li.like::before {
+			content: '';
+			position: absolute;
+			width: 6px;
+			height: 15px;
+			border-color: #009933;
+			border-style: solid;
+			border-width: 0 5px 3px 0;
+			transform: rotate(45deg);
+			margin-left: -20px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function () {
+			var list = document.querySelector('ul');
+			list.addEventListener('click', function(event) {
+				if(event.target.tagName === 'LI') {
+					event.target.classList.toggle('like');
+				}
+			});
+		};
+	</script>
+</head>
+<body>
+	<ul>
+		<li>Ping-Pong</li>
+		<li class="like">Basketball</li>
+		<li>Football</li>
+		<li class="like">Badminton</li>
+		<li>Tennis</li>
+		<li>Volleyball</li>
+	</ul>
+</body>
+</html>
+
