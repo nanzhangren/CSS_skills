@@ -3,9 +3,9 @@
 - [locate](https://github.com/nanzhangren/CSS-skills/tree/master/locate)
 - [tooltip](https://github.com/nanzhangren/CSS-skills/tree/master/tooltip)
 - [pointer-events](https://github.com/nanzhangren/CSS-skills/tree/master/pointer-events)
+- [::before & ::after](https://github.com/nanzhangren/CSS-skills/tree/master/pseudo-element/before-after)
 
 ## To do list:
-- ::before & ::after
 - 多重边框
 - border-radius 设置8个值
 - transition 实现颜色过渡效果
