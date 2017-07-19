@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Border-radius Sample</title>
+	<style>
+		.container {
+			width: 300px;
+			height: 160px;
+			margin: 30px;
+			background-color: lightblue;
+		}
+
+		.one-radius {
+			border-radius: 20px;
+		}
+
+		.four-radius {
+			border-radius: 18px 9px 9px 18px;
+		}
+
+		.eight-radius-horizontal {
+			border-radius: 20px 20px 20px 20px / 10px 10px 10px 10px;
+		}
+
+		.eight-radius-vertical {
+			border-radius: 10px 10px 10px 10px / 20px 20px 20px 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container one-radius"></div>
+	<div class="container four-radius"></div>
+	<div class="container eight-radius-horizontal"></div>
+	<div class="container eight-radius-vertical"></div>
+</body>
+</html>
