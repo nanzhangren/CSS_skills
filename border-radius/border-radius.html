@@ -12,26 +12,36 @@
 		}
 
 		.one-radius {
-			border-radius: 20px;
+			border-radius: 100px;
+		}
+
+		.two-radius {
+			border-radius: 100px 50px;
 		}
 
 		.four-radius {
-			border-radius: 18px 9px 9px 18px;
+			border-radius: 100px 50px 50px 100px;
 		}
 
-		.eight-radius-horizontal {
-			border-radius: 20px 20px 20px 20px / 10px 10px 10px 10px;
+		.border-radius-horizontal-vertical {
+			border-radius: 100px / 50px;
 		}
 
-		.eight-radius-vertical {
-			border-radius: 10px 10px 10px 10px / 20px 20px 20px 20px;
+		.eight-radius-horizontal-bigger {
+			border-radius: 50px 50px 50px 50px / 30px 30px 30px 30px;
+		}
+
+		.eight-radius-vertical-bigger {
+			border-radius: 30px 30px 30px 30px / 50px 50px 50px 50px;
 		}
 	</style>
 </head>
 <body>
 	<div class="container one-radius"></div>
+	<div class="container two-radius"></div>
 	<div class="container four-radius"></div>
-	<div class="container eight-radius-horizontal"></div>
-	<div class="container eight-radius-vertical"></div>
+	<div class="container border-radius-horizontal-vertical"></div>
+	<div class="container eight-radius-horizontal-bigger"></div>
+	<div class="container eight-radius-vertical-bigger"></div>
 </body>
 </html>
