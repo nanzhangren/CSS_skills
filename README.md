@@ -6,6 +6,7 @@
 - [::before & ::after](https://github.com/nanzhangren/CSS-skills/tree/master/pseudo-element/before-after)
 - [multi-border](https://github.com/nanzhangren/CSS-skills/tree/master/multi-border)
 - [border-radius](https://github.com/nanzhangren/CSS-skills/tree/master/border-radius)
+- [transition](https://github.com/nanzhangren/CSS-skills/tree/master/transition)
 
 ## To do list:
-- transition 实现颜色过渡效果
+- small triangle
