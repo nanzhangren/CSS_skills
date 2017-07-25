@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Transition Sample</title>
+	<style type="text/css">
+		#rotated-boy {
+			background-image: url(little-boy.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			opacity: 1;
+			transition: width 2s, height 1s, left 1s, top 2s, opacity 3s;
+		}
+
+		#rotated-boy:hover {
+			width: 300px;
+			height: 300px;
+			top: 300px;
+			left: 300px;
+			opacity: 0.1;
+		} 
+	</style>
+</head>
+<body>
+	<div id="rotated-boy">
+	</div>
+</body>
+</html>
