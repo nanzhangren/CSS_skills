@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Content Increment Sample</title>
+	<style type="text/css">
+		.container {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 80px;
+			background-color: darkslategray;
+			color: lavenderblush;
+			line-height: 6px;
+		}
+
+		div {
+			counter-reset: biggest-sequence 6;
+		}
+
+		h2 {
+			counter-reset: bigger-sequence h2;
+		}
+
+		h3 {
+			counter-reset: big-sequence;
+		}
+
+		h2:before {
+			counter-increment: biggest-sequence;
+			content: "第 " counter(biggest-sequence) " 章";
+			margin-right: 20px;
+		}
+
+		h3:before {
+			counter-increment: bigger-sequence;
+			content: counter(biggest-sequence) "." counter(bigger-sequence);
+			margin-left: 26px;
+			margin-right: 20px;
+		}
+
+		h4:before {
+			counter-increment: big-sequence;
+			content: counter(biggest-sequence) "." counter(bigger-sequence) "." counter(big-sequence);
+			margin-left: 75px;
+			margin-right: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h2>函数表达式</h2>
+			<h3>递归</h3>
+			<h3>闭包</h3>
+				<h4>闭包与变量</h4>
+				<h4>关于 this 对象</h4>
+				<h4>内存泄漏</h4>
+			<h3>模仿块级作用域</h3>
+			<h3>私有变量</h3>
+				<h4>静态私有变量</h4>
+				<h4>模块模式</h4>
+				<h4>增强的模块模式</h4>
+			<h3>小结</h3>
+		<h2>BOM</h2>
+			<h3>window 对象</h3>
+				<h4>全局作用域</h4>
+				<h4>窗口关系及框架</h4>
+				<h4>窗口位置</h4>
+			<h3>location 对象</h3>
+				<h4>查询字符串参数</h4>
+				<h4>位置参数</h4>
+			<h3>navigator 对象</h3>
+				<h4>检测插件</h4>
+				<h4>注册处理程序</h4>
+			<h3>screen 对象</h3>
+			<h3>history 对象</h3>
+			<h3>小结</h3>
+	</div>
+</body>
+
+</html>
