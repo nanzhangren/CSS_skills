@@ -8,6 +8,7 @@
 - [border-radius](https://github.com/nanzhangren/CSS-skills/tree/master/border-radius)
 - [transition](https://github.com/nanzhangren/CSS-skills/tree/master/transition)
 - [length-unit](https://github.com/nanzhangren/CSS-skills/tree/master/length-unit)
+- [counter](https://github.com/nanzhangren/CSS-skills/tree/master/counter)
 
 ## To do list:
 - small triangle
