@@ -9,6 +9,7 @@
 - [transition](https://github.com/nanzhangren/CSS-skills/tree/master/transition)
 - [length-unit](https://github.com/nanzhangren/CSS-skills/tree/master/length-unit)
 - [counter](https://github.com/nanzhangren/CSS-skills/tree/master/counter)
+- [float](https://github.com/nanzhangren/CSS-skills/tree/master/float)
 
 ## To do list:
 - small triangle
