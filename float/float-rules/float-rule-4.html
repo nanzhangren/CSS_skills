@@ -4,23 +4,31 @@
 	<title>Float Rule 4 Sample</title>
 	<style type="text/css">
 		.container {
-			width: 800px;
+			width: 600px;
 			padding: 20px;
 			color: white;
-			background-color: lightgreen;
+			background-color: #1b4a41;
 		}
 
 		.float_left {
 			float: left;
-			width: 600px;
 			padding: 20px;
-			border: 2px solid greenyellow;
+			border: 2px solid yellow;
+			background-color: green;
+		}
+
+		#prev-text {
+			background-color: blue;
+		}
+
+		#next-text {
+			background-color: red;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<p>
+		<p id="prev-text">
 			There was once a farmer who had a fine olive orchard. He was very hardworking, 
 			and the farm always prospered under his care. But he knew that his three sons 
 			despised the farm work, and were eager to make wealth, trough adventure.
@@ -30,7 +38,7 @@
 			the three sons to him and said, "My sons, there is a pot of gold hidden 
 			in the olive orchard. Dig for it, if you wish it."			
 		</p>
-		<p>
+		<p id="next-text">
 			The sons tried to get him to tell them in what part of the orchard the gold was hidden; 
 			but he would tell them nothing more.
 		</p>
