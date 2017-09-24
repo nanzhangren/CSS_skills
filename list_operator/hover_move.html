@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Border-radius Sample</title>
+	<style>
+		.container {
+			padding: 30px;
+			background-color: #dedede;
+		}
+
+		ul {
+			list-style-type: none;
+			user-select: none;
+		}
+
+		ul li {
+			line-height: 28px;
+		}
+
+		ul li span {
+			display: inline-block;
+			width: 0;
+			height: 0;
+			border-left: 8px solid #fef3f6;
+			border-top: 8px solid transparent;
+			border-bottom: 8px solid transparent;
+		}
+
+		ul li a {			
+			margin-left: 6px;
+			color: #5aa7c1;
+			transition: margin-left 1s;
+		}
+
+		ul li a:hover {
+			margin-left: 16px;
+			color: #666ae7;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<ul>
+			<li>
+				<span></span>
+				<a>apple</a>
+			</li>
+			<li>
+				<span></span>
+				<a>banana</a>
+			</li>
+			<li>
+				<span></span>
+				<a>cat</a>
+			</li>
+			<li>
+				<span></span>
+				<a>dog</a>
+			</li>
+			<li>
+				<span></span>
+				<a>elephant</a>
+			</li>
+			<li>
+				<span></span>
+				<a>fox</a>
+			</li>
+			<li>
+				<span></span>
+				<a>goose</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

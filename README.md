@@ -10,6 +10,8 @@
 - [length unit](https://github.com/nanzhangren/CSS-skills/tree/master/length_unit)
 - [counter](https://github.com/nanzhangren/CSS-skills/tree/master/counter)
 - [float](https://github.com/nanzhangren/CSS-skills/tree/master/float)
+- [list operator]
+    - [hover move action](https://github.com/nanzhangren/CSS-skills/tree/master/list_operator)
 
 ## To do list:
 - small triangle
