@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Rotate Sample</title>
+	<style>
+        .container {
+            position: relative;
+            width: 600px;
+            height: 400px;
+            background-color: dimgrey;
+        }
+
+        .original-position {
+            width: 294px;
+            height: 194px;
+            border: 3px solid blueviolet;
+        }
+
+        .img-style {
+            width: 294px;
+            height: 194px;
+            border: 3px solid yellow;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .transform-style {
+            transform: rotate(45deg);
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="original-position"></div>
+        <img class="img-style transform-style" src="tiger.jpg" />
+    </div>
+</body>
+</html>
