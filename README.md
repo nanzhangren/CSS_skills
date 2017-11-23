@@ -12,6 +12,9 @@
 - [float](https://github.com/nanzhangren/CSS-skills/tree/master/float)
 - [list operator](https://github.com/nanzhangren/CSS-skills/tree/master/list_operator)
     - [hover move action](https://github.com/nanzhangren/CSS-skills/tree/master/list_operator)
+- [image control](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
+    - [password button(background_image)](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
+    - [password button(content)](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
 
 ## To do list:
 - small triangle
