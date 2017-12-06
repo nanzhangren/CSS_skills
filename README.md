@@ -18,3 +18,5 @@
 
 ## To do list:
 - small triangle
+- responsive layout
+- fixed ratio(width_height)
