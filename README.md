@@ -15,9 +15,9 @@
 - [image control](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
     - [password button(background_image)](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
     - [password button(content)](https://github.com/nanzhangren/CSS-skills/tree/master/image_control)
+- [fixed ratio](https://github.com/nanzhangren/CSS-skills/tree/master/fixed_ratios)
 
 ## To do list:
 - small triangle
 - responsive layout
-- fixed ratio(width_height)
 - transform_2
