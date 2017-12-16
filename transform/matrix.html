@@ -28,15 +28,20 @@
             left: 150;
         }
 
-        .matrix-style {
-            transform: matrix(1, 1, 1, 0, 0, 0);
+        .matrix-style-translate {
+            transform: matrix(1, 0, 0, 1, 30, 30);
+        }
+
+        .matrix-style-scale {
+            transform: matrix(0.5, 0, 0, 0.5, 0, 0);
         }
 	</style>
 </head>
 <body>
     <div class="container">
         <div class="original-position"></div>
-        <img class="img-style matrix-style" src="tiger.jpg" />
+        <!-- <img class="img-style matrix-style-translate" src="tiger.jpg" /> -->
+        <img class="img-style matrix-style-scale" src="tiger.jpg" />
     </div>
 </body>
 </html>
