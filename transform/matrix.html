@@ -29,11 +29,15 @@
         }
 
         .matrix-style-translate {
-            transform: matrix(1, 0, 0, 1, 30, 30);
+            transform: matrix(1, 0, 0, 1, 30, 30);      /* transform: translate(30px, 30px); */
         }
 
         .matrix-style-scale {
-            transform: matrix(0.5, 0, 0, 0.5, 0, 0);
+            transform: matrix(0.5, 0, 0, 0.5, 0, 0);    /* transform: scale(0.5, 0.5); */
+        }
+
+        .matrix-style-rotate {
+            transform: matrix(0.866025, 0.5, -0.5, 0.866025, 0, 0);     /* transform: rotate(30deg); */
         }
 	</style>
 </head>
@@ -41,7 +45,8 @@
     <div class="container">
         <div class="original-position"></div>
         <!-- <img class="img-style matrix-style-translate" src="tiger.jpg" /> -->
-        <img class="img-style matrix-style-scale" src="tiger.jpg" />
+        <!-- <img class="img-style matrix-style-scale" src="tiger.jpg" /> -->
+        <img class="img-style matrix-style-rotate" src="tiger.jpg" />
     </div>
 </body>
 </html>
