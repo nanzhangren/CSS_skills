@@ -29,6 +29,5 @@
 ## To do list:
 - small triangle
 - responsive layout
-- transform_matrix
 - transform-3D
 - transform-origin
