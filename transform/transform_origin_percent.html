@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Transform-origin Sample</title>
+	<style>
+        .container {
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            background-color: dimgrey;
+        }
+
+        .original-position {
+            width: 294px;
+            height: 194px;
+            border: 3px solid blueviolet;
+            position: absolute;
+            top: 180;
+            left: 260;
+            z-index: 1000;
+        }
+
+        .img-style {
+            width: 294px;
+            height: 194px;
+            border: 3px solid yellow;
+            position: absolute;
+            top: 180;
+            left: 260;
+            z-index: 100;
+        }
+
+        .transform-origin-percent {
+            animation: 3s rotate infinite;
+            transform-origin: 25% 25%;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(90deg);
+            }
+        }
+
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="original-position"></div>
+        <img class="img-style transform-origin-percent" src="tiger.jpg" />
+    </div>
+</body>
+</html>
