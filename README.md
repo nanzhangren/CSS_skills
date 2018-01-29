@@ -34,4 +34,5 @@
 - small triangle
 - responsive layout
 - transform-3D
-- use transform to draw a heart shape
+- flexbox
+- CSS grid
