@@ -29,6 +29,7 @@
     - [transform_origin_position](https://github.com/nanzhangren/CSS-skills/tree/master/transform)
     - [transform_origin_percent](https://github.com/nanzhangren/CSS-skills/tree/master/transform)
     - [transform_origin_number](https://github.com/nanzhangren/CSS-skills/tree/master/transform)
+- [priority](https://github.com/nanzhangren/CSS-skills/tree/master/priority)
 
 ## To do list:
 - small triangle

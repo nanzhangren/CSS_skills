@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test Sample</title>
+	<style>
+		#my-input-id {
+			background-color: red;
+			width: 120px;
+			height: 45px;
+		}
+		/* 优先级值 [0, 2, 0] */
+		.my-class .my-input-class {
+			background-color: green;
+		}
+		/* 优先级值 [1, 1, 0] */
+		#my-id [type="button"] {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+    <div id="my-id" class="my-class">
+        <input type="button" id="my-input-id" class="my-input-class" />
+    </div>
+</body>
+</html>
