@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Position-static Sample</title>
+	<style>
+        body {
+            margin: 0;
+            background-color: beige;
+        }
+
+        .container {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 600px;
+            height: 400px;
+            background-color: dimgrey;
+        }
+
+        .help-div {
+            width: 300px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 3px solid blueviolet;
+        }
+
+        .common-position-style {
+            width: 300px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 3px solid yellow;
+            background-color: yellowgreen;
+        }
+
+        .static-position-style {
+            position: static;
+            left: 50px;
+            top: 50px;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="help-div"></div>
+        <div class="common-position-style static-position-style"></div>
+    </div>
+</body>
+</html>

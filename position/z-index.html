@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Position-z-index Sample</title>
+	<style>
+        body {
+            margin: 0;
+            background-color: beige;
+        }
+
+        .container {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 600px;
+            height: 400px;
+            background-color: dimgrey;
+        }
+
+        .container > div {
+            width: 300px;
+            height: 200px;
+            box-sizing: border-box;
+            position: absolute;
+        }
+
+        .z-index-auto {
+            border: 3px solid yellow;
+            background-color: yellowgreen;
+        }
+
+        .z-index-negative-100 {
+            left: 50px;
+            top: 50px;
+            z-index: -100;
+            border: 3px solid blue;
+            background-color: lightblue;
+        }
+
+        .z-index-100 {
+            left: 100px;
+            top: 100px;
+            z-index: 100;
+            border: 3px solid red;
+            background-color: lightcoral;
+        }
+
+        .z-index-1000 {
+            left: 150px;
+            top: 150px;
+            z-index: 1000;
+            border: 3px solid green;
+            background-color: lightgreen;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="z-index-negative-100"></div>
+        <div class="z-index-auto"></div>
+        <div class="z-index-100"></div>
+        <div class="z-index-1000"></div>
+    </div>
+</body>
+</html>

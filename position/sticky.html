@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Position-sticky Sample</title>
+	<style>
+        body {
+            margin: 0;
+            background-color: beige;
+        }
+
+        .container {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 600px;
+            height: 400px;
+            background-color: dimgrey;
+            overflow-y: scroll;
+        }
+
+        dl {
+            padding: 12px 12px 0 12px;
+        }
+
+        dt {
+            color: white;
+            background-color: darkgray;
+            font-size: larger;
+            border: 1px solid lightgray;
+            padding: 6px;
+            position: sticky;
+            top: 10px;
+        }
+        
+        dd {
+            color: seashell;
+            line-height: 30px;
+            border-bottom: 1px solid;
+            margin-left: 6px;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <dl>
+            <dt>A</dt>
+            <dd>AAA</dd>
+            <dd>ABA</dd>
+            <dd>ACA</dd>
+        </dl>
+        <dl>
+            <dt>B</dt>
+            <dd>BBB</dd>
+            <dd>BAB</dd>
+            <dd>BCB</dd>
+        </dl>
+        <dl>
+            <dt>C</dt>
+            <dd>CCC</dd>
+            <dd>CAC</dd>
+            <dd>CBC</dd>
+        </dl>
+        <dl>
+            <dt>D</dt>
+            <dd>DDD</dd>
+            <dd>DAD</dd>
+            <dd>DBD</dd>
+        </dl>
+        <dl>
+            <dt>E</dt>
+            <dd>EEE</dd>
+            <dd>EAE</dd>
+            <dd>EBE</dd>
+        </dl>
+        <dl>
+            <dt>F</dt>
+            <dd>FFF</dd>
+            <dd>FAF</dd>
+            <dd>FBF</dd>
+        </dl>
+    </div>
+</body>
+</html>
