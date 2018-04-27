@@ -30,6 +30,13 @@
     - [transform_origin_percent](https://github.com/nanzhangren/CSS-skills/tree/master/transform)
     - [transform_origin_number](https://github.com/nanzhangren/CSS-skills/tree/master/transform)
 - [priority](https://github.com/nanzhangren/CSS-skills/tree/master/priority)
+- [position](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [static](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [absolute](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [fixed](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [relative](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [sticky](https://github.com/nanzhangren/CSS-skills/tree/master/position)
+    - [z-index](https://github.com/nanzhangren/CSS-skills/tree/master/position)
 
 ## To do list:
 - small triangle
