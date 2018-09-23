@@ -29,7 +29,7 @@
 - 使用旋转属性，成功得到对号
 
 ### 运行效果
-!(check 运行效果)[https://github.com/nanzhangren/CSS_skills/blob/master/sign/check/check.PNG]
+!(check 运行效果)[https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/sign/check/check.PNG]
 
 ### 提醒
 - 行级元素直接设置宽度和高度没有用，需要设置其 display 使其变为块级元素。例如：span 需要设置 display 为 inline-block 才能适用于本例效果
