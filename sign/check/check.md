@@ -36,4 +36,4 @@
 - 不需要设置元素内容
 - 可以根据实际需求调整元素宽度和高度
 - 可以根据实际需求设置不同的 border，以及相邻 border 的宽度
-- 可以对此效果做简单的修改，作用于伪元素 ::before 和 ::after。可参考 [::before & :：after](https://github.com/nanzhangren/CSS_skills/blob/master/pseudo_element/before_after/before_after_real_case.html)
+- 可以对此效果做简单的修改，作用于伪元素 ::before 和 ::after。可参考 [::before & ::after](https://github.com/nanzhangren/CSS_skills/blob/master/pseudo_element/before_after/before_after_real_case.html)
