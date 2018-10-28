@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Media Sample</title>
+	<style>
+		@media screen and (max-width: 400px) {
+			.btn {
+				background-color: lightblue;
+			}
+		}
+
+		@media screen and (min-width: 400px) and (max-width: 800px) {
+			.btn {
+				background-color: yellowgreen;
+			}
+		}
+
+		@media screen and (min-width: 800px) {
+			.btn {
+				background-color: orangered;
+			}
+		}
+
+		.btn {
+			width: 100%;
+			height: 60px;
+			border: none;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" class="btn" />
+</body>
+</html>

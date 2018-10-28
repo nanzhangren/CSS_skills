@@ -38,7 +38,9 @@
     - [sticky](https://github.com/nanzhangren/CSS-skills/tree/master/position)
     - [z-index](https://github.com/nanzhangren/CSS-skills/tree/master/position)
 - [sign](https://github.com/nanzhangren/CSS_skills/blob/master/sign)
-    - [check](https://github.com/nanzhangren/CSS_skills/blob/master/sign/check/check.html)
+    - [check](https://github.com/nanzhangren/CSS_skills/blob/master/sign/check)
+- [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
+    - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media.html)
 
 ## To do list:
 - **rem layout**
