@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Mobile Icon Sample</title>
+	<style>
+		.icon-container {
+			margin: 20px 30px;
+		}
+
+		.icon {
+			width: 45px;
+			height: 45px;
+			background-color: lightgray;
+			border-radius: 20%;
+		}
+
+		/* only one number */
+		.icon::after {
+			content: "6";
+			display: block;
+			box-sizing: border-box;
+			width: 20px;
+			height: 20px;
+			border-radius: 10px;
+			background-color: red;
+			position: relative;
+			top: -10px;
+			left: 35px;
+			text-align: center;
+			color: white;
+		}
+
+		/* multi number */
+		/* .icon::after {
+			content: "16";
+			display: block;
+			box-sizing: border-box;
+			width: 26px;
+			height: 20px;
+			border-radius: 10px;
+			background-color: red;
+			position: relative;
+			top: -10px;
+			left: 33px;
+			text-align: center;
+			color: white;
+		} */
+	</style>
+</head>
+<body>
+	<div class="icon-container">
+		<div class="icon"></div>
+	</div>
+	<div class="icon-container">
+		<div class="icon"></div>
+	</div>
+	<div class="icon-container">
+		<div class="icon"></div>
+	</div>
+</body>
+</html>
