@@ -40,7 +40,8 @@
 - [sign](https://github.com/nanzhangren/CSS_skills/blob/master/sign)
     - [check](https://github.com/nanzhangren/CSS_skills/blob/master/sign/check)
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
-    - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media.html)
+    - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
+- [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
 
 ## To do list:
 - **rem layout**
