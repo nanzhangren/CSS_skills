@@ -1,7 +1,7 @@
 ## 手机 app 图标右上方消息计数
 突发奇想，实现了一下手机 app 图标右上方的消息计数功能。效果类似我们平时在手机上看到的消息计数，如下图：    
 ![app 消息计数](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/mobile_icon/mobile_icon_one_number.png)    
-实现思路很简单：首先创建一个模拟 app 图标的 div 元素，设置宽度高度和圆边框；之后给该 div 元素设置 ::after 伪元素，用作消息计数；这里需要给伪类设置宽度高度、圆边框、背景颜色、字体颜色，关键在于基于 div 元素的宽度高度设置伪类的位置。
+实现思路很简单：首先创建一个模拟 app 图标的 div 元素，设置宽度高度和圆边框；之后给该 div 元素设置 ::after 伪元素，用作消息计数；这里需要给伪类设置宽度高度、圆边框、背景颜色、字体颜色，关键点在于基于 div 元素的宽度高度设置伪类的位置。
 
 ### HTML
 ``` html
