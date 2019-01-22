@@ -39,6 +39,8 @@
     - [z-index](https://github.com/nanzhangren/CSS-skills/tree/master/position)
 - [sign](https://github.com/nanzhangren/CSS_skills/blob/master/sign)
     - [check](https://github.com/nanzhangren/CSS_skills/blob/master/sign/check)
+- [animation](https://github.com/nanzhangren/CSS_skills/blob/master/animation)
+    - [switch_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation)
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
     - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
 - [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
