@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Close Sample</title>
+	<style>
+		#container {
+			margin: 100px;
+		}
+        #close {
+            display: inline-block;
+            width: 23px;
+            height: 2px;
+            background: red;
+            transform: rotate(45deg);
+        }
+        #close::after {
+            content: '';
+            display: block;
+            width: 23px;
+            height: 2px;
+            background: red;
+            transform: rotate(-90deg);
+        }
+	</style>
+</head>
+<body>
+    <div id="container">
+        <span id="close"></span>
+    </div>
+</body>
+</html>
