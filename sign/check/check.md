@@ -29,7 +29,7 @@
 - 使用旋转属性，成功得到对号
 
 ### 运行效果
-![check 运行效果](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/sign/check/check.PNG)    
+![check 运行效果](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/sign/check/check.png)    
 **解析**    
 如上图，第一个为两条线等宽的对号效果，第二个为两条线不等宽的对号效果；第三个为两条线等宽等长的对号效果。详细实现请参见 [check 源码](https://github.com/nanzhangren/CSS_skills/blob/master/sign/check/check.html)
 
