@@ -38,7 +38,7 @@
 - 自定义动画名称添加至 animation 属性，并设置动画时间为 1 秒，动画次数为无限次
 
 ### 运行效果
-![按钮大小变化效果](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/bigger_btn.gif) 
+![按钮大小变化效果](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/bigger_btn/bigger_btn.gif) 
 
 ### Gitbub 源码
 https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn.html
