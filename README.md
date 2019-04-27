@@ -42,7 +42,7 @@
     - [close](https://github.com/nanzhangren/CSS_skills/blob/master/sign/close)
     - [right_arrow](https://github.com/nanzhangren/CSS_skills/blob/master/sign/right_arrow)
 - [animation](https://github.com/nanzhangren/CSS_skills/blob/master/animation)
-    - [switch_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation/switch_image)
+    - [slide_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation/slide_image)
     - [bigger_btn](https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn)
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
     - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
