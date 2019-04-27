@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Scroll Image Sample</title>
+	<style>
+		#container {
+			width: 210px;
+			height: 630px;
+			overflow: hidden;
+		}
+
+		#container > img {
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		.scroll-img {
+			animation: scroll 9s ease-out infinite;
+		}
+
+		@keyframes scroll {
+			0%, 7% {
+				background-image: url("111.png");
+				transform: rotateY(0deg);
+			}
+			12%, 17% {
+				background-image: url("222.png");
+				transform: rotateY(120deg);
+			}
+			22%, 27% {
+				background-image: url("333.png");
+				transform: rotateY(240deg);
+			}
+			32%, 41% {
+				background-image: url("222.png");
+				transform: rotateY(0deg);
+			}
+			46%, 51% {
+				background-image: url("333.png");
+				transform: rotateY(120deg);
+			}
+			56%, 61% {
+				background-image: url("111.png");
+				transform: rotateY(240deg);
+			}
+			66%, 74% {
+				background-image: url("333.png");
+				transform: rotateY(0deg);
+			}
+			79%, 84% {
+				background-image: url("111.png");
+				transform: rotateY(120deg);
+			}
+			89%, 94% {
+				background-image: url("222.png");
+				transform: rotateY(240deg);
+			}
+			99%, 100% {
+				background-image: url("111.png");
+				transform: rotateY(0deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<img class="scroll-img" />
+	</div>
+</body>
+</html>

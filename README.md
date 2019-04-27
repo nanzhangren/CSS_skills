@@ -44,6 +44,7 @@
 - [animation](https://github.com/nanzhangren/CSS_skills/blob/master/animation)
     - [slide_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation/slide_image)
     - [bigger_btn](https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn)
+    - [scroll_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation/scroll_image)
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
     - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
 - [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
