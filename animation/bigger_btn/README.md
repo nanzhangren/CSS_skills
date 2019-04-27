@@ -41,4 +41,4 @@
 ![按钮大小变化效果](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/bigger_btn/bigger_btn.gif) 
 
 ### Gitbub 源码
-https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn.html
+https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn/bigger_btn.html
