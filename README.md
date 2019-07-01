@@ -46,6 +46,7 @@
     - [bigger_btn](https://github.com/nanzhangren/CSS_skills/blob/master/animation/bigger_btn)
     - [scroll_image](https://github.com/nanzhangren/CSS_skills/blob/master/animation/scroll_image)
     - [load_effect](https://github.com/nanzhangren/CSS_skills/blob/master/animation/load_effect)
+    - [hover_div](https://github.com/nanzhangren/CSS_skills/blob/master/animation/hover_div)
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
     - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
 - [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
@@ -56,3 +57,4 @@
 - transform-3D
 - flexbox
 - CSS grid
+- **more load effect**
