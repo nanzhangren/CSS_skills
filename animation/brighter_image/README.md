@@ -1,5 +1,8 @@
 ## 图片亮度变化动效
 
+### 难度系数
+☆☆
+
 ### 效果图
 ![图片由亮变暗](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/brighter_image/brighter_image.gif)
 
