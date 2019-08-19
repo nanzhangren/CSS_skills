@@ -42,7 +42,7 @@
 ```
 **解析**   
 - @keyframes 添加自定义动画 brighter，开始阶段设置图片亮度为原始的 3 倍，结束阶段设置亮度为正常值
-- 添加图片的动画属性 animation，动画效果为 brighter。根据实际效果设置适合的动画时长。
+- 添加图片的动画属性 animation，动画效果为 brighter。根据实际效果设置适合的动画时长
 
 ### Gitbub 源码
 https://github.com/nanzhangren/CSS_skills/blob/master/animation/brighter_image/brighter_image.html
