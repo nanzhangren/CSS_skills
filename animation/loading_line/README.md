@@ -4,7 +4,7 @@
 ☆☆☆
 
 ### 效果图
-![加载动画](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/loading_rotate/loading_line.gif)
+![加载动画](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/loading_line/loading_line.gif)
 
 ### 思路
 通过 3 个线条高度的动态变化实现加载动画，为了突出效果，给线条增加了阴影。对动画而言，@keyframes 和 animation 是必不可少的技巧。同时本例中使用了 first-child 和 nth-child 选择器，用于给特定位置的元素添加其特有的动画属性。
