@@ -9,7 +9,7 @@
 \****
 
 ### 效果图
-![加载动画](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/load_effect/load_effect.gif)
+![加载动画](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/loading_rotate/loading_rotate.gif)
 
 ### 思路
 CSS 用于修饰 HTML，所以即便是再简单的效果，都是要依赖于 HTML 的，而本例效果的实现 HTML 布局更是重中之重。   
@@ -173,7 +173,7 @@ CSS 用于修饰 HTML，所以即便是再简单的效果，都是要依赖于 H
 - 所有线条动画效果一致（透明度在变化），动画时长一致，动画延迟从某一个线条开始，逐个递加
 
 ### Gitbub 源码
-https://github.com/nanzhangren/CSS_skills/blob/master/animation/load_effect/load_effect.html
+https://github.com/nanzhangren/CSS_skills/blob/master/animation/loading_rotate/loading_rotate.html
 
 ### 参考链接
 https://www.cnblogs.com/zourong/p/3980006.html
