@@ -1,0 +1,159 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Shooting Star Sample</title>
+	<style>
+        .container {
+            padding: 300px 0 0 60px;
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 900px;
+            height: 450px;
+            background-color: rgba(0, 0, 255);
+        }
+        .shooting-star {
+            margin: 30px;
+            display: block;
+            width: 0;
+            border-radius: 2px;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: transparent;
+            border-left-width: 230px;
+            border-left-style: solid;
+            border-left-color: white;
+            border-right-width: 230px;
+            border-right-style: solid;
+            border-right-color: transparent;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: white;
+        }
+        .animation {
+            animation: fly 3s infinite;
+        }
+        @keyframes fly {
+            from {
+                margin-left: 900px;
+                border-left-width: 130px;
+                border-right-width: 130px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 360px;
+                border-right-width: 360px;
+            }
+        }
+        .animation-1 {
+            animation: fly-1 4s infinite;
+        }
+        @keyframes fly-1 {
+            from {
+                margin-left: 1100px;
+                border-left-width: 100px;
+                border-right-width: 100px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 300px;
+                border-right-width: 300px;
+            }
+        }
+        .animation-2 {
+            animation: fly-2 1s infinite;
+        }
+        @keyframes fly-2 {
+            from {
+                margin-left: 700px;
+                border-left-width: 60px;
+                border-right-width: 60px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 230px;
+                border-right-width: 230px;
+            }
+        }
+        .animation-3 {
+            animation: fly-3 3s infinite;
+        }
+        @keyframes fly-3 {
+            from {
+                margin-left: 600px;
+                border-left-width: 30px;
+                border-right-width: 30px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 130px;
+                border-right-width: 130px;
+            }
+        }
+        .animation-4 {
+            animation: fly-4 8s infinite;
+        }
+        @keyframes fly-4 {
+            from {
+                margin-left: 800px;
+                border-left-width: 100px;
+                border-right-width: 100px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 300px;
+                border-right-width: 300px;
+            }
+        }
+        .animation-5 {
+            animation: fly-5 6s infinite;
+        }
+        @keyframes fly-5 {
+            from {
+                margin-left: 780px;
+                border-left-width: 130px;
+                border-right-width: 130px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 230px;
+                border-right-width: 230px;
+            }
+        }
+        .animation-6 {
+            animation: fly-6 2s infinite;
+        }
+        @keyframes fly-6 {
+            from {
+                margin-left: 1080px;
+                border-left-width: 50px;
+                border-right-width: 50px;
+            }
+            to {
+                margin-left: -900px;
+                border-left-width: 160px;
+                border-right-width: 160px;
+            }
+        }
+        .animation-7 {
+            animation: fly-6 4s infinite;
+        }
+        .animation-8 {
+            animation: fly-4 1s infinite;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+        <span class="shooting-star animation"></span>
+        <span class="shooting-star animation-1"></span>
+        <span class="shooting-star animation-2"></span>
+        <span class="shooting-star animation-3"></span>
+        <span class="shooting-star animation-4"></span>
+        <span class="shooting-star animation-5"></span>
+        <span class="shooting-star animation-6"></span>
+        <span class="shooting-star animation-7"></span>
+        <span class="shooting-star animation-8"></span>
+	</div>
+</body>
+</html>
