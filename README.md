@@ -52,6 +52,7 @@
 - [responsive layout](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout)
     - [media](https://github.com/nanzhangren/CSS_skills/blob/master/responsive_layout/media)
 - [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
+- [shooting star](https://github.com/nanzhangren/CSS_skills/blob/master/shooting_star)
 
 ## To do list:
 - **rem layout**

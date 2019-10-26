@@ -2,7 +2,7 @@
 如题，这是一种访问网页时经常会出现的效果。当鼠标经过某一图片或某一容器时，对应元素会有一个放大的动画，有木有好奇这是怎么实现的？那就继续往下看吧！
 
 ### 难度系数
-\***
+☆☆☆
 
 ### 效果图
 ![悬浮放大](https://raw.githubusercontent.com/nanzhangren/CSS_skills/master/animation/hover_div/hover_div.gif)
