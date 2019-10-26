@@ -59,4 +59,3 @@
 - transform-3D
 - flexbox
 - CSS grid
-- **more load effect**
