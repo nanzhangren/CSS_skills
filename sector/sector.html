@@ -11,7 +11,18 @@
             height: 300px;
             background-color: lightgray;
         }
-        .border-style {
+        .triangle-style {
+            display: inline-block;
+            position: absolute;
+            top: 80px;
+            left: 70px;
+            width: 0;
+            height: 0;
+            border-left: 76px solid transparent;
+            border-right: 76px solid transparent;
+            border-bottom: 130px solid red;
+        }
+        .sector-style {
             display: inline-block;
             position: absolute;
             top: 80px;
@@ -28,7 +39,8 @@
 </head>
 <body>
     <div class="container">
-        <span class="border-style"></span>
+        <!-- <span class="triangle-style"></span> -->
+        <span class="sector-style"></span>
     </div>
 </body>
 </html>
