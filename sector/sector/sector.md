@@ -81,8 +81,11 @@
 **解析**   
 - hover 伪类添加了对应的圆角效果，这样鼠标悬浮在三角形上时，就可以看到三角形切换到扇形的动态效果
 
-**效果图**   
+**动态效果图**   
 ![三角形到扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector-animation.gif)
+
+**静态对比图**   
+![三角形和扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector.gif)
 
 ### 知识点
 - 三角形实现
