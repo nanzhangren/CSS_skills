@@ -85,7 +85,7 @@
 ![三角形到扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector-animation.gif)
 
 **静态对比图**   
-![三角形和扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector.gif)
+![三角形和扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector.png)
 
 ### 知识点
 - 三角形实现
