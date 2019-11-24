@@ -7,10 +7,9 @@
 ### HTML
 ``` html
 <span class="sector-style"></span>
-```
-**解析**   
+```  
 
-### 实现三角形 CSS
+### 三角形 CSS
 ``` css
 .triangle-style {
     display: inline-block;
@@ -34,10 +33,10 @@
     - 三角形高度为其底边对应 border 设置的宽度
     - 三角形宽度为两个侧边对应 border 宽度之和
 
-**效果图**
+**效果图**   
 ![***](****)
 
-### 实现扇形 CSS
+### 扇形 CSS
 ``` css
 .sector-style {
     display: inline-block;
@@ -56,6 +55,9 @@
 **解析**   
 - 在三角形实现基础上，添加 border-radius 效果即可实现扇形。如以上代码，添加三角形底边对应 border 和两个侧边对应 border 的圆角效果即可
 - 注意圆角边框值等于底边对应 border 宽度值
+
+**效果图**   
+![***](****)
 
 ### 知识点
 - 三角形实现
