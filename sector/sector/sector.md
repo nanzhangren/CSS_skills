@@ -34,7 +34,7 @@
     - 三角形宽度为两个侧边对应 border 宽度之和
 
 **效果图**   
-![***](****)
+![三角形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle.png)
 
 ### 扇形 CSS
 ``` css
@@ -57,11 +57,36 @@
 - 注意圆角边框值等于底边对应 border 宽度值
 
 **效果图**   
-![***](****)
+![扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/sector.png)
+
+### 三角形到扇形的变化 CSS
+``` css
+.triangle-style {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 0;
+    height: 0;
+    border-left: 76px solid transparent;
+    border-right: 76px solid transparent;
+    border-bottom: 130px solid red;
+}
+.triangle-style:hover {
+    border-bottom-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    transition: border-bottom-right-radius 3s, border-bottom-left-radius 3s;
+}
+```
+**解析**   
+- hover 伪类添加了对应的圆角效果，这样鼠标悬浮在三角形上时，就可以看到三角形切换到扇形的动态效果
+
+**效果图**   
+![三角形到扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector-animation.gif)
 
 ### 知识点
 - 三角形实现
 - border-radius
 
 ### Gitbub 源码
-https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector.html
+https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/sector.html
