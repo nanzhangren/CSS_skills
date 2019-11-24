@@ -9,7 +9,8 @@
 <span class="sector-style"></span>
 ```  
 
-### 三角形 CSS
+### 三角形
+CSS：
 ``` css
 .triangle-style {
     display: inline-block;
@@ -23,7 +24,7 @@
     border-bottom: 130px solid red;
 }
 ```
-**解析**   
+解析： 
 - display 值不能为 inline
 - 宽度和高度为 0
 - 颜色
@@ -33,10 +34,11 @@
     - 三角形高度为其底边对应 border 设置的宽度
     - 三角形宽度为两个侧边对应 border 宽度之和
 
-**效果图**   
+效果图：     
 ![三角形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle.png)
 
-### 扇形 CSS
+### 扇形
+CSS：
 ``` css
 .sector-style {
     display: inline-block;
@@ -52,14 +54,15 @@
     border-bottom-left-radius: 130px;
 }
 ```
-**解析**   
+解析：  
 - 在三角形实现基础上，添加 border-radius 效果即可实现扇形。如以上代码，添加三角形底边对应 border 和两个侧边对应 border 的圆角效果即可
 - 注意圆角边框值等于底边对应 border 宽度值
 
-**效果图**   
+效果图：    
 ![扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/sector.png)
 
-### 三角形到扇形的变化 CSS
+### 三角形到扇形的变化
+CSS：
 ``` css
 .triangle-style {
     display: inline-block;
@@ -78,13 +81,13 @@
     transition: border-bottom-right-radius 3s, border-bottom-left-radius 3s;
 }
 ```
-**解析**   
+解析：
 - hover 伪类添加了对应的圆角效果，这样鼠标悬浮在三角形上时，就可以看到三角形切换到扇形的动态效果
 
-**动态效果图**   
+动态效果图：    
 ![三角形到扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector-animation.gif)
 
-**静态对比图**   
+静态对比图：    
 ![三角形和扇形](https://github.com/nanzhangren/CSS_skills/blob/master/sector/sector/triangle-sector.png)
 
 ### 知识点
