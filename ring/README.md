@@ -61,4 +61,4 @@
 - 元素水平、竖直居中
 
 ### Gitbub 源码
-https://github.com/nanzhangren/CSS_skills/blob/master/sector/ring/ring.html
+https://github.com/nanzhangren/CSS_skills/blob/master/ring/ring.html
