@@ -53,7 +53,7 @@
 - 通过基于父容器的绝对定位，设置 top、left、translate 属性，让元素基于父容器水平、竖直居中，即可让两个圆的圆心重合
 
 ### 效果图
-![圆环](https://github.com/nanzhangren/CSS_skills/blob/master/sector/ring/ring.png)
+![圆环](https://github.com/nanzhangren/CSS_skills/blob/master/ring/ring.png)
 
 ### 知识点
 - border-radius

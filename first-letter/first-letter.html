@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>First Letter Sample</title>
+    <style>
+        :root {
+            --base-font-size: 16px;
+            --base-line-height: 20px;
+        }
+
+        .customized-first-letter {
+            font-size: var(--base-font-size);
+            line-height: var(--base-line-height);
+        }
+
+        .customized-first-letter::first-letter {
+            float: left;
+            font-weight: bold;
+            font-size: calc(var(--base-font-size) * 4);
+            line-height: calc(var(--base-line-height) * 2);
+        }
+    </style>
+</head>
+
+<body>
+    <p class="customized-first-letter">
+        Prajna Paramita, soon as soon as, life be beautiful like summer flowers and death like autumn leaves. Also care
+        about what has.
+    </p>
+</body>
+
+</html>
