@@ -54,6 +54,7 @@
 - [app message count](https://github.com/nanzhangren/CSS_skills/blob/master/app_message_count)
 - [shooting star](https://github.com/nanzhangren/CSS_skills/blob/master/shooting_star)
 - [ring](https://github.com/nanzhangren/CSS_skills/blob/master/ring)
+- [first-letter](https://github.com/nanzhangren/CSS_skills/blob/master/first-letter)
 
 ## To do list:
 - **rem layout**
