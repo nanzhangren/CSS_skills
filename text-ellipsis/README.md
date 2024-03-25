@@ -14,7 +14,7 @@
 ```  
 解析： 
 - 此处为示例文本，大家输入自己喜欢的一段内容即可。
-- 可给DOM元素设置title属性，用于文本隐藏时的内容提示。
+- 可给DOM元素设置title属性，用于文本隐藏时的内容提示，用户体验更佳。
 
 ### CSS
 ``` css
@@ -42,7 +42,7 @@
 ```  
 解析： 
 - 此处为示例文本，大家输入自己喜欢的一段内容即可。
-- 可给DOM元素设置title属性，用于文本隐藏时的内容提示。
+- 可给DOM元素设置title属性，用于文本隐藏时的内容提示，用户体验更佳。
 
 ### CSS
 ``` css
@@ -57,7 +57,8 @@
 1. 多行文本隐藏需要借助于**-webkit-line-clamp**属性，-webkit-line-clamp生效有两点依赖：
 a. **display**属性设置成**-webkit-box**或**-webkit-inline-box**；
 b. **box-orient**属性设置成**vertical**。
-详见：https://developer.mozilla.org/zh-CN/docs/Web/CSS/-webkit-line-clamp。设置后效果如下图：
+详见：https://developer.mozilla.org/zh-CN/docs/Web/CSS/-webkit-line-clamp。   
+设置后效果如下图：
 ![多行超长文本省略无overflow](https://github.com/nanzhangren/CSS_skills/blob/master/text-ellipsis/multi-line-ellipsis-no-overflow.png)   
 2. 设置webkit相关属性后，文本被限制在设定行数，还需要设置overflow属性为hidden隐藏多余文本行，以达到预期的文本省略效果。
 
