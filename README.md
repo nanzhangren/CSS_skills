@@ -55,6 +55,7 @@
 - [shooting star](https://github.com/nanzhangren/CSS_skills/blob/master/shooting_star)
 - [ring](https://github.com/nanzhangren/CSS_skills/blob/master/ring)
 - [first-letter](https://github.com/nanzhangren/CSS_skills/blob/master/first-letter)
+- [text-ellipsis](https://github.com/nanzhangren/CSS_skills/blob/master/text-ellipsis)
 
 ## To do list:
 - **rem layout**
